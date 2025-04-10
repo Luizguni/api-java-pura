@@ -39,15 +39,53 @@ Uma API REST minimalista construída com Java puro usando `HttpServer` nativo, p
 - JDK 17 ([Download](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html))
 - Git (opcional)
 
-### Passo a Passo
-```bash
-# 1. Clone o repositório
-git clone https://github.com/seu-usuario/api-java-pura.git
-cd api-java-pura
+api-java-pura/
+├── src/
+│   └── SimpleApi.java          # Implementação do servidor
+├── .gitignore                  # Ignora arquivos IDE/compilados
+├── LICENSE                     # Licença MIT
+└── README.md                   # Esta documentação
 
-# 2. Compile e execute
-javac src/SimpleApi.java
-java -cp src SimpleApi
 
-# 3. Acesse no navegador ou Postman:
-# GET http://localhost:8080/api/hello
+🧪 Testando com Postman
+Requisição GET
+
+GET http://localhost:8080/api/hello
+
+
+Requisição POST
+Método: POST
+
+URL: http://localhost:8080/api/echo
+
+Headers:
+
+Content-Type: application/json
+
+📌 Roadmap
+Implementação básica GET/POST
+
+Suporte a parâmetros de query (/api/user?id=1)
+
+Sistema de rotas dinâmicas
+
+Middleware de autenticação básica
+
+Documentação Swagger
+
+
+🤝 Como Contribuir
+Faça um fork do projeto
+
+Crie uma branch 
+
+Commit suas mudanças 
+
+Push para a branch 
+
+Abra um Pull Request
+
+📄 Licença
+Este projeto está licenciado sob a licença MIT 
+
+⌨️ Desenvolvido por Luiz Guni | ☕ 
